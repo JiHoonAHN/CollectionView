@@ -13,6 +13,8 @@
 		EED7EE7F25D1AB83000C79E5 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED7EE7D25D1AB83000C79E5 /* Main.storyboard */; };
 		EED7EE8125D1AB83000C79E5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EED7EE8025D1AB83000C79E5 /* Assets.xcassets */; };
 		EED7EE8425D1AB83000C79E5 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EED7EE8225D1AB83000C79E5 /* LaunchScreen.storyboard */; };
+		EED7EE8E25D1C048000C79E5 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EED7EE8C25D1C048000C79E5 /* MyCollectionViewCell.swift */; };
+		EED7EE8F25D1C048000C79E5 /* MyCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EED7EE8D25D1C048000C79E5 /* MyCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		EED7EE8025D1AB83000C79E5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EED7EE8325D1AB83000C79E5 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EED7EE8525D1AB83000C79E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EED7EE8C25D1C048000C79E5 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
+		EED7EE8D25D1C048000C79E5 /* MyCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MyCollectionViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,6 +67,8 @@
 				EED7EE8025D1AB83000C79E5 /* Assets.xcassets */,
 				EED7EE8225D1AB83000C79E5 /* LaunchScreen.storyboard */,
 				EED7EE8525D1AB83000C79E5 /* Info.plist */,
+				EED7EE8C25D1C048000C79E5 /* MyCollectionViewCell.swift */,
+				EED7EE8D25D1C048000C79E5 /* MyCollectionViewCell.xib */,
 			);
 			path = CollectionView;
 			sourceTree = "<group>";
@@ -126,6 +132,7 @@
 			files = (
 				EED7EE8425D1AB83000C79E5 /* LaunchScreen.storyboard in Resources */,
 				EED7EE8125D1AB83000C79E5 /* Assets.xcassets in Resources */,
+				EED7EE8F25D1C048000C79E5 /* MyCollectionViewCell.xib in Resources */,
 				EED7EE7F25D1AB83000C79E5 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -139,6 +146,7 @@
 			files = (
 				EED7EE7C25D1AB83000C79E5 /* ViewController.swift in Sources */,
 				EED7EE7825D1AB83000C79E5 /* AppDelegate.swift in Sources */,
+				EED7EE8E25D1C048000C79E5 /* MyCollectionViewCell.swift in Sources */,
 				EED7EE7A25D1AB83000C79E5 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
